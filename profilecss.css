@@ -1,10 +1,30 @@
 body {
   background-color: white;
+  font-family: 'Averia Serif Libre';
+  font-size: 30px;
 }
 
-#name {
-  background-color: #80ccff;
+.name {
   text-align: center;
-  color: #000033;
-  font-size: 100px;
+  color: #99ebff;
+  background-color: black;
+  font-size: 200%;
+  /*font-family: 'Raleway';*/
+  font-family: 'Averia Serif Libre';
+  display: inline-block;
+  border: 7px solid #99ebff;
+  padding: 4%;
+  margin: 4%;
+}
+
+.line {
+  color: black;
+  border-top-width: 7px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.text {
+  text-indent: 100px;
+  margin: 50px;
 }
