@@ -1,0 +1,10 @@
+body {
+  background-color: white;
+}
+
+#name {
+  background-color: #80ccff;
+  text-align: center;
+  color: #000033;
+  font-size: 100px;
+}
