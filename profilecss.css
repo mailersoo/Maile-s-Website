@@ -4,24 +4,66 @@ body {
   font-size: 30px;
 }
 
+.header {
+  background-color: #99ebff;
+  /*border-radius: 25px;*/
+  text-align: center;
+}
+
 .name {
   text-align: center;
-  color: #99ebff;
-  background-color: black;
-  font-size: 200%;
+  color: black;
+  background-color: #99ebff;
+  font-size: 65%;
   /*font-family: 'Raleway';*/
   font-family: 'Averia Serif Libre';
   display: inline-block;
-  border: 7px solid #99ebff;
-  padding: 4%;
-  margin: 4%;
+  /*border: 2px solid white;*/
+  padding: 10px;
+  /*margin: 10px;*/
 }
 
-.line {
-  color: black;
-  border-top-width: 7px;
-  margin-left: 0px;
-  margin-right: 0px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 2px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: white;
+}
+
+.parallax1 {
+  background-image: url("IMG_5839.jpg");
+  min-height: 700px;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  background-image: url("IMG_5728.jpg");
+  min-height: 700px;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .text {
