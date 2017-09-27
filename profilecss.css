@@ -17,10 +17,15 @@ body {
   font-size: 65%;
   /*font-family: 'Raleway';*/
   font-family: 'Averia Serif Libre';
-  display: inline-block;
+  display: inline-flex;
   /*border: 2px solid white;*/
-  padding: 10px;
+  padding: 6px;
   /*margin: 10px;*/
+}
+
+.logo {
+  font-family: 'Sacramento', cursive;
+  font-size: 70px;
 }
 
 ul {
@@ -38,7 +43,7 @@ li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 2px 16px;
+    padding: 5px 30px;
     text-decoration: none;
 }
 
